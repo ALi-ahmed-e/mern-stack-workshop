@@ -361,11 +361,7 @@
 // update
 // delete
 
-const users = [
-    { id: 1, name: 'john' },
-    { id: 2, name: 'sara' },
-    { id: 3, name: 'karen' }
-]
+const users = [  { id: 1, name: 'john' } , { id: 2, name: 'sara' } , { id: 3, name: 'karen' }  ]
 
 //create
 function createUser(user) {
@@ -387,9 +383,13 @@ function updateUser(id, newName) {
 
     })
 
-    users[targetedId].name = newName
+    // users[targetedId].name = newName
 
 }
+
+
+
+console.log(users.find(user=> user.id == 2))
 
 
 updateUser(2, 'ali')

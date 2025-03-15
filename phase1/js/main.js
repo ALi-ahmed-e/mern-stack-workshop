@@ -329,7 +329,22 @@
 
 //(10) local storage and session storage
 
-// localStorage.setItem('name', 'john')
+// localStorage.setItem("add",JSON.stringify({add1:"cairo"}))
+
+// // console.log(JSON.parse(localStorage.getItem("add")))
+
+
+
+// localStorage.removeItem("add")
+
+// console.log(localStorage)
+
+
+
+// console.log(JSON.stringify({age:30}))
+// console.log({age:30})
+
+
 // localStorage.setItem('age', 30)
 
 // localStorage.removeItem('name')
@@ -343,11 +358,16 @@
 
 
 // sessionStorage.setItem('name', 'john')
+
 // sessionStorage.setItem('age', 30)
+
 
 // sessionStorage.removeItem('name')
 
+// console.log(sessionStorage)  
+
 // sessionStorage.clear()
+// localStorage.clear()
 
 // const name = sessionStorage.getItem('name')
 // const age = sessionStorage.getItem('age')
@@ -361,51 +381,87 @@
 // update
 // delete
 
-const users = [  { id: 1, name: 'john' } , { id: 2, name: 'sara' } , { id: 3, name: 'karen' }  ]
+// const users = [{ id: 1, name: 'john' }, { id: 2, name: 'sara' }, { id: 3, name: 'karen' }]
 
-//create
-function createUser(user) {
+// //create
+// function createUser(user) {
 
-}
+//     users.push(user)
+
+
+// }
+
+
+// createUser({ id: 4, name: 'mohamed' })
 
 //read
-function readUser(id) {
+// function readUser(id) {
 
-}
+//     let returnedUser;
 
-//update
-function updateUser(id, newName) {
-    let targetedId;
-    users.map((user, i) => {
-        if (user.id == id) {
-            targetedId = i
-        }
+//     for (let i = 0; i < users.length; i++) {
+//         if (users[i].id == id) {
+//             returnedUser = users[i]
+//         }
 
-    })
+//     }
+//     console.log('read user', returnedUser)
 
-    // users[targetedId].name = newName
-
-}
+// }
 
 
+// readUser(2)
 
-console.log(users.find(user=> user.id == 2))
+// //update
+// function updateUser(id, newName) {
+//     let returnedUserIndex;
+
+//     for (let i = 0; i < users.length; i++) {
+//         if (users[i].id == id) {
+//             returnedUserIndex = i
+//         }
+
+//     }
 
 
-updateUser(2, 'ali')
+//     users[returnedUserIndex].name = newName
+
+
+// }
+
+
+
+// console.log(users.find(user => user.id == 2))
+
+
+// updateUser(2, 'ali')
 
 //delete
 
-function deleteUser(id) {
-    //1
-
-    //2
-
-}
+// function deleteUser(id) {
+//     //1
 
 
+//     let returnedUserIndex;
 
-console.log(users)
+//     for (let i = 0; i < users.length; i++) {
+//         if (users[i].id == id) {
+//             returnedUserIndex = i
+//         }
+
+//     }
+
+//     // console.log(returnedUserIndex)
+//     users.splice(returnedUserIndex,1)
+    
+
+// }
+
+
+// deleteUser(2)
+
+
+// console.log(users)
 
 
 

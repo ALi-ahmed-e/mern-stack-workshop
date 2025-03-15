@@ -15,3 +15,7 @@ https://nodejs.org/en/download
 
 workshop github repo
 https://github.com/ALi-ahmed-e/mern-stack-workshop
+
+
+html css crash course
+https://youtu.be/aHzw_8wWl48?si=oAv9tFxTFHrVPbzV

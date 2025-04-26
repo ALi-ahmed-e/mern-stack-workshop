@@ -1,0 +1,25 @@
+git and github
+https://youtu.be/fDkR0TDR9dI?si=3hNDdE3JMVCb_RrU
+
+w3 scools
+https://www.w3schools.com/jsref/default.asp
+
+js crash course 
+https://www.youtube.com/watch?v=PkZNo7MFNFg
+
+visual studio code
+https://code.visualstudio.com/
+
+node.js installation link
+https://nodejs.org/en/download
+
+workshop github repo
+https://github.com/ALi-ahmed-e/mern-stack-workshop
+
+
+html css crash course
+https://youtu.be/aHzw_8wWl48?si=oAv9tFxTFHrVPbzV
+
+
+mongodb compass
+https://www.mongodb.com/try/download/compass
